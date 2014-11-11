@@ -13,6 +13,7 @@ public class UsuarioAction extends ActionSupport{
 	private boolean estado;
 	
 	public String execute(){
+		// Prueba GIT
 		String ir = ERROR;
 		if (getUsuario().equals("acalo") && getPassword().equals("123")){
 			setNombre("Antonio Calo EXECUTE");;
